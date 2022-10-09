@@ -159,13 +159,19 @@ h1{
 .contact{
     max-width: 990px;
     margin: 2em auto;
-    background-color: yellow;
+ 
 }
-input{
+.contact input, .contact textarea{
     width: 100%;
     padding: .7em;
     margin-bottom: 1.5em;
-    border: 3em double var(--main);
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to left, #03ac2b, #d53a9d);
+    font-size: 1.1rem;
 }
-
+.contact label{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
 
