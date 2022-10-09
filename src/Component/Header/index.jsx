@@ -15,11 +15,11 @@ const Header = () => {
             
             <nav>
                 <div className="list">
-                    <NavLink to="/" className="listItem" activeClassName="activeItem" >Home</NavLink>
-                    <NavLink to="/about" className="listItem" activeClassName="activeItem" >About</NavLink>
-                    <NavLink to="/services" className="listItem" activeClassName="activeItem" >Services</NavLink>
-                    <NavLink to="/contact" className="listItem" activeClassName="activeItem" >Contact</NavLink>
-                    <NavLink to="/policy" className="listItem" activeClassName="activeItem" >Policy</NavLink>
+                    <NavLink to="/" className="listItem" activeClassName="active" exact >Home</NavLink>
+                    <NavLink to="/about" className="listItem" activeClassName="active" >About</NavLink>
+                    <NavLink to="/services" className="listItem" activeClassName="active" >Services</NavLink>
+                    <NavLink to="/contact" className="listItem" activeClassName="active" >Contact</NavLink>
+                    <NavLink to="/policy" className="listItem" activeClassName="active" >Policy</NavLink>
                    
                 </div>
                 

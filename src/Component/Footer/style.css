@@ -35,4 +35,8 @@ hr{
     hr{
         display: none;
     }
+    .icon{
+        margin-right:0.8em;
+        font-size: 20px;
+    }
 }

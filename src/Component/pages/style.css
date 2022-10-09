@@ -3,7 +3,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 80px;
+    margin-bottom: 125px;
 }
 .contentBox{
     width: 40%;
@@ -101,18 +102,20 @@ p{
 .btn {
     border: 2px solid transparent;
     border-radius: 2rem;
-    background-image: linear-gradient(rgba(255, 255, 3, 0.945), rgb(233, 136, 136)), radial-gradient( circle at bottom right, purple, yellow );
+    background-image: linear-gradient(rgba(45, 225, 0, 0.945), rgb(235, 0, 0)), radial-gradient( circle at bottom right, purple, yellow );
     background-origin: border-box;
     background-clip: content-box, border-box;
     margin-bottom: 10px;
-   
+}
+.btn:hover {
+    background-image: linear-gradient(rgb(235, 0, 0),rgba(45, 225, 0, 0.945)), radial-gradient( circle at bottom right, purple, yellow );
 }
 .information {
     display: inline-block;
     font-size: 1.2rem;
     padding: 0.5rem 1.5rem;
-    color: darkblue;
-
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 .services{
@@ -120,6 +123,7 @@ p{
     margin: 1em 0;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 150px;
 }
 h1{
     text-align: center;
